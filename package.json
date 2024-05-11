@@ -1,0 +1,22 @@
+{
+  "name": "haq-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "assets"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Genoux/haq-assets.git"
+  },
+  "author": "John Barry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Genoux/haq-assets/issues"
+  },
+  "homepage": "https://github.com/Genoux/haq-assets#readme"
+}
