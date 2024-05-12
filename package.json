@@ -1,7 +1,7 @@
 {
   "name": "haq-assets",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.1.1",
+  "description": "Custom Digital asset management system for HAQ",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build-index": "node ./scripts/generateIndex.js && tsc"
+    "build": "npx webpack --mode production"
   },
   "repository": {
     "type": "git",
