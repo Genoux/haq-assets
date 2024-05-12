@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "declaration": true,
+    "strict": true,
+    "paths": {
+      "*": ["./node_modules/*"] // adjust if you have custom types
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
